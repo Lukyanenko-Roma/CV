@@ -18,54 +18,17 @@
 
 body {
   background: #f5f7fa;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 2%;
   font-family: Montserrat;
 }
 
-.header-address {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.166;
-  letter-spacing: 0.02em;
-}
-
-.header-address-link {
-  display: flex;
-  align-items: center;
-  color: #757575;
-}
-
-.header-address:not(:last-child) {
-  margin-bottom: 10px;
-}
-
-.header-address-link:hover,
-.header-address-link:focus {
-  color: #2196f3;
-}
-
-.header-address:hover .header-address-svg-mail {
-  fill: #2196f3;
-}
-
-.header-address:hover .header-address-svg-tel {
-  fill: #2196f3;
-}
-
-.header-address-svg-mail,
-.header-address-svg-tel {
-  margin-right: 8px;
-  fill: #ff6b08;
-}
 .wrapper {
   background: #fff;
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  justify-content: space-evenly;
 }
 
 @media (max-width: 1200px) {
@@ -86,9 +49,7 @@ body {
 }
 .sidebar {
   background: #1e2939;
-  width: 370px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 2%;
 }
 
 .my-foto {
@@ -96,10 +57,9 @@ body {
 }
 
 .about-me-container {
-  padding-left: 90px;
-  padding-right: 90px;
-  padding-top: 110px;
-  padding-bottom: 110px;
+  margin-left: 20px;
+  padding: 2%;
+  margin-right: 20px;
 }
 .contacts {
   margin-top: 60px;
@@ -268,4 +228,40 @@ body {
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
+}
+
+.header-address {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.166;
+  letter-spacing: 0.02em;
+}
+
+.header-address-link {
+  display: flex;
+  align-items: center;
+  color: #757575;
+}
+
+.header-address:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: #2196f3;
+}
+
+.header-address:hover .header-address-svg-mail {
+  fill: #2196f3;
+}
+
+.header-address:hover .header-address-svg-tel {
+  fill: #2196f3;
+}
+
+.header-address-svg-mail,
+.header-address-svg-tel {
+  margin-right: 8px;
+  fill: #ff6b08;
 }
