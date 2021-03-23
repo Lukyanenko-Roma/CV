@@ -23,12 +23,12 @@ body {
 }
 
 .wrapper {
-  background: #fff;
   display: flex;
+  justify-content: space-evenly;
+  background: #ffffff;
   max-width: 1200px;
   margin: 0 auto;
-  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
-  justify-content: space-evenly;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 15%);
 }
 
 @media (max-width: 1200px) {
@@ -47,23 +47,23 @@ body {
     flex-wrap: wrap;
   }
 }
+
 .sidebar {
   background: #1e2939;
   padding: 2%;
 }
 
 .my-foto {
-  width: 370px;
+  width: 100%;
 }
 
 .about-me-container {
   margin-left: 20px;
   padding: 2%;
-  margin-right: 20px;
 }
 .contacts {
   margin-top: 60px;
-  margin-left: 40px;
+  margin-left: 20px;
   margin-right: 40px;
 }
 
@@ -73,6 +73,7 @@ body {
   line-height: 24px;
   color: #fff;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .contacts-link {
