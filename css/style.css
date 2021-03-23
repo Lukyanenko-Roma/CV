@@ -31,20 +31,32 @@ body {
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 15%);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1326px) {
   .wrapper {
     max-width: 970px;
+  }
+  .my-foto {
+    width: 100%;
   }
 }
 @media (max-width: 992px) {
   .wrapper {
     max-width: 750px;
   }
+  .my-foto {
+    width: 100%;
+  }
 }
 @media (max-width: 767px) {
   .wrapper {
     max-width: none;
     flex-wrap: wrap;
+  }
+  .sidebar {
+    flex: auto;
+  }
+  .my-foto {
+    width: 295px;
   }
 }
 
@@ -53,9 +65,9 @@ body {
   padding: 2%;
 }
 
-.my-foto {
+/* .my-foto {
   width: 100%;
-}
+} */
 
 .about-me-container {
   margin-left: 20px;
