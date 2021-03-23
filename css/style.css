@@ -35,16 +35,10 @@ body {
   .wrapper {
     max-width: 970px;
   }
-  .my-foto {
-    width: 100%;
-  }
 }
 @media (max-width: 992px) {
   .wrapper {
     max-width: 750px;
-  }
-  .my-foto {
-    width: 100%;
   }
 }
 @media (max-width: 767px) {
@@ -55,9 +49,6 @@ body {
   .sidebar {
     flex: auto;
   }
-  .my-foto {
-    width: 295px;
-  }
 }
 
 .sidebar {
@@ -65,9 +56,9 @@ body {
   padding: 2%;
 }
 
-/* .my-foto {
+.my-foto {
   width: 100%;
-} */
+}
 
 .about-me-container {
   margin-left: 20px;
