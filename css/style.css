@@ -114,11 +114,15 @@ body {
   line-height: 24px;
   color: #ff6b08;
 }
-
+.header-address-svg-tel {
+  margin-left: 2px;
+}
 .tech-skills-text {
   color: #a2a7ae;
 }
-
+.soft-skills-list {
+  padding-left: 18px;
+}
 .soft-skills-title {
   font-size: 22px;
   font-weight: 700;
@@ -149,6 +153,9 @@ body {
   line-height: 24px;
   margin-bottom: 23px;
 }
+.profession-duties {
+  padding-left: 18px;
+}
 .name {
   font-size: 35px;
   font-weight: 700;
@@ -163,6 +170,14 @@ body {
 .info-container {
   margin-bottom: 50px;
 }
+
+.about-me {
+  margin-bottom: 30px;
+}
+
+.about-me-list {
+  padding-left: 17px;
+}
 .about-me-title {
   font-size: 22px;
   font-weight: 700;
@@ -171,9 +186,10 @@ body {
 }
 .projects-link {
   color: #595959;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 700;
   line-height: 24px;
+  color: #000;
 }
 .tech-name {
   color: #595959;
